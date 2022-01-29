@@ -1,6 +1,6 @@
-a=input("Enter Name1 and Mark%(Float):")
-b=input("Enter Name2 and Mark%(Float):")
-c=input("Enter Name3 and Mark%(Float):")
+a=input("Enter first name and Mark%(Float):")
+b=input("Enter second name and Mark%(Float):")
+c=input("Enter third name and Mark%(Float):")
 
 #Spilt&Indexing
 d1=a.split()
