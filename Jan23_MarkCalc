@@ -1,0 +1,20 @@
+phy = int(input("Physics mark: "))
+chem = int(input("Chemistry mark: "))
+maths = int(input("Maths mark: "))
+aggregate = int (phy/4 + chem/4 + maths/2)
+if phy < 70 or chem < 70 or maths < 70:
+      print("Your score is less than 70 so the result is fail")
+elif phy > 200 or chem > 200 or maths > 200:
+        print("You have entered invalid score")
+elif phy > 70 and chem > 70 and maths > 70:
+      print ("Pass")
+      if aggregate >= 190:
+            print("First Class")
+      elif aggregate >150 and aggregate < 190:
+            print("Second Class")
+      elif aggregate >=70 and aggregate <150:
+            print ("Third Class")
+      else:
+            print("Fail Try again")
+
+print(aggregate)
