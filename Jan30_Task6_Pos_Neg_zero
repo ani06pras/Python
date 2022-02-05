@@ -1,0 +1,33 @@
+'''
+Input: [-1, -7,8,10,20,21,17,28,-3,0,0,]
+    
+Output:
+neg_LI = [-1,-7,-3]
+pos_LI = []
+Zeros = []
+Numeber of postivie ele: 7
+Number nega: 3
+Number of zeros: 2
+'''
+
+li= [-1, -7,8,10,20,21,17,28,-3,0,0]
+neg_li=[]
+pos_li=[]
+zeroes_li=[]
+
+for i in li:
+    if i==0:
+       zeroes_li.append(i)
+    elif i<0:
+        neg_li.append(i)
+    else:
+        pos_li.append(i)
+print("Given List: ",li)
+#lists
+print("Positive",pos_li)
+print("Negative",neg_li)
+print("Zeroes",zeroes_li)
+#counts
+print("Number of positive elements: ",len(pos_li))
+print("Number of negative elements: ",len(neg_li))
+print("Number of zero elements: ",len(zeroes_li))
