@@ -1,0 +1,21 @@
+#create an empty list
+#Collect list length from user using input() and convert into int 
+
+list1=[]
+length=int(input("Enter the length of the list: "))
+for i in range(0,length):
+    data=input("Enter value{} :".format(i+1))
+    list1.append(data)
+print("The List is ",list1)
+
+'''
+Output
+Enter the length of the list: 6
+Enter value1 :one
+Enter value2 :two
+Enter value3 :three
+Enter value4 :four
+Enter value5 :five
+Enter value6 :six
+The List is  ['one', 'two', 'three', 'four', 'five', 'six']
+'''
