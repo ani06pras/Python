@@ -1,0 +1,19 @@
+x=int(input("Enter first value "))
+y=int(input("Enter second value "))
+li=[]
+#if - should be greater than zero and no negatives
+if x>0 and y>0:
+    for i in range(x,y+1):
+      if i%8==0:
+          li.append(i)
+    print("Multiples of 8 between {} and {} is \n{}".format(x,y,li))
+else:
+    print("Number invalid")
+
+'''
+output
+Enter first value 1
+Enter second value 80
+Multiples of 8 between 1 and 80 is 
+[8, 16, 24, 32, 40, 48, 56, 64, 72, 80]
+'''
