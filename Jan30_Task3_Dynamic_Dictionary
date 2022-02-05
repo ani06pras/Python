@@ -1,0 +1,7 @@
+dic1={}
+length=int(input("Enter length of the dictionary: "))
+for i in range(0,length):
+    key=input("Enter Key ")
+    value=input("Enter Value ")
+    dic1[key]=value
+print("Your Dictionary is ",dic1,type(dic1))
