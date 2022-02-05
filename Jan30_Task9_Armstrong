@@ -1,0 +1,23 @@
+n=int(input("Enter Number:"))
+num=n
+strong=0
+len_n=len(str(n))
+
+while num>0:
+    rem=num%10
+    num=num//10
+    strong=strong+(rem**len_n)
+
+if strong==n:
+    print({} is an armstrong number.".format(n))
+else:
+    print({} is not an armstrong number.".format(n))
+    
+'''
+output
+Enter Number:153
+153 is an armstrong number.
+
+Enter Number:200
+200 is not an armstrong number.
+'''
