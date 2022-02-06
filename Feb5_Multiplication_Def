@@ -1,0 +1,6 @@
+x,y,z = int(input("Your inputs")), int(input()), int(input())
+
+def multiplication(a,b,c):
+    d = a*b*c
+    return int(d)
+print(multiplication(x,y,z))
