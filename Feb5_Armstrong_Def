@@ -5,8 +5,8 @@ def Armstrong(a):
         c = c + (int(i)**3)
         print(c)
     if c==a:
-        return "Armstrong Number"
+        return "Armstrong"
     else:
-        return "Not Armstrong Number"
+        return "Your arm is not strong"
 num1 = int(input("Enter the number: "))
 print(Armstrong(num1))
