@@ -1,0 +1,7 @@
+def concatenate(x,y,z):
+    return x+y+z
+
+s1=input("First string: ")
+s2=input("Second String: ")
+s3=input("Third String: ")
+print(concatenate(s1,s2,s3))
