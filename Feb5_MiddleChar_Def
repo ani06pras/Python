@@ -1,0 +1,6 @@
+def mid(s):
+    a=len(s)//2
+    return s[a]
+
+s1=input("Input String is: ")
+print(mid(s1))
