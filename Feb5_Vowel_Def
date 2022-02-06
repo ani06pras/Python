@@ -1,0 +1,11 @@
+str = input("Your string: ")
+
+def vowel(a):
+    x = int(len(a)/2)
+    if a[x]=="a" or a[x]=="e" or a[x]=="i" or a[x]=="o" or a[x]=="u":
+        return "{} is a vowel".format(a[x])
+    else:
+        return "{} is not a vowel".format(a[x])
+
+
+print(vowel(str))
