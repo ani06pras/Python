@@ -1,0 +1,11 @@
+def str_palindrome(x):
+   return x==x[::-1]
+    
+p1=input("Enter a string:")
+
+result=str_palindrome(p1)
+
+if result==True:
+    print("It's a palindrome")
+else:
+    print("Not a palindrome")
